@@ -5,7 +5,7 @@ A collection of functions to help refine a collection of
 LogicalObjects against a number of possible translations
 """
 
-import macleod.dl.Patterns as Pattern
+import dl.Patterns as Pattern
 
 
 def filter_on_quantifiers(sentence, patterns):

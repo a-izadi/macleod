@@ -32,7 +32,7 @@ class Logical(object):
         :return Connective.Conjunction()
         '''
 
-        import macleod.logical.Connective as Connective
+        import logical.Connective as Connective
 
         return Connective.Conjunction([self, other])
 
@@ -44,7 +44,7 @@ class Logical(object):
         :return Connective.Disjunction()
         '''
 
-        import macleod.logical.Connective as Connective
+        import logical.Connective as Connective
 
         return Connective.Disjunction([self, other])
 
@@ -56,7 +56,7 @@ class Logical(object):
         :return Negation.Negation()
         '''
 
-        import macleod.logical.Negation as Negation
+        import logical.Negation as Negation
 
         return Negation.Negation(self)
 

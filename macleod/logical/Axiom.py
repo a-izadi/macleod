@@ -5,12 +5,12 @@ Axiom class
 import copy
 import logging
 
-import macleod.logical.Logical as Logical
-import macleod.logical.Connective as Connective
-import macleod.logical.Quantifier as Quantifier
-import macleod.logical.Negation as Negation
-import macleod.logical.Symbol as Symbol
-import macleod.logical.Utils as Util
+import logical.Logical as Logical
+import logical.Connective as Connective
+import logical.Quantifier as Quantifier
+import logical.Negation as Negation
+import logical.Symbol as Symbol
+import logical.Utils as Util
 
 LOGGER = logging.getLogger(__name__)
 

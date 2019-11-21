@@ -2,7 +2,7 @@
 POTATO
 """
 
-import macleod.Filemgt as filemgt
+import Filemgt as filemgt
 import logging
 
 def cumulate_ladr_files (input_files, output_file):    

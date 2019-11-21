@@ -12,7 +12,7 @@ from tkinter import *
 from tkinter.ttk import *
 import os
 import platform
-import macleod.filemgt
+import filemgt
 
 EDITOR = None
 

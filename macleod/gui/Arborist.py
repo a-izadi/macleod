@@ -9,7 +9,7 @@ more generic tree structure
 import sys
 sys.path.append("../")
 
-import macleod.Filemgt as filemgt
+import Filemgt as filemgt
 
 from tkinter import *
 import tkinter.font

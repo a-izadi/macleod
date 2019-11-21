@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import Qt, pyqtSignal
-import macleod.Filemgt as filemgt
+import Filemgt as filemgt
 import configparser
 import os
 

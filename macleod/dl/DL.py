@@ -8,8 +8,8 @@ Class that will house the ontology FOL -> OWL stuff
 import argparse
 import owlready
 
-import macleod.dl.Extractions as Extractions
-import macleod.dl.Translation as Translation
+import dl.Extractions as Extractions
+import dl.Translation as Translation
 
 def owl_class(class_name, ontology, super_class=owlready.Thing):
     '''

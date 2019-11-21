@@ -12,8 +12,8 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__))+"/../")
 
 from bin import licence, check_consistency
 
-import macleod.Filemgt as filemgt
-import macleod.Clif as clif
+import Filemgt as filemgt
+import Clif as clif
 from macleod.ClifModuleSet import ClifModuleSet
 
 # hack to filter out function symbols and treat them differently in the creating of existential sentences

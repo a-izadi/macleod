@@ -5,11 +5,11 @@ Regrouped all methods that pertain to an import hierarchy into the new module Cl
 @author: Torsten Hahmann
 '''
 
-import macleod.Filemgt as filemgt
-import macleod.Commands as commands
-import macleod.Process as process
-import macleod.Ladr as ladr
-import macleod.Clif as clif
+import Filemgt as filemgt
+import Commands as commands
+import Process as process
+import Ladr as ladr
+import Clif as clif
 
 from macleod.ClifModule import ClifModule
 from macleod.ReasonerSet import ReasonerSet

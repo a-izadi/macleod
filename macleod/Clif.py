@@ -6,7 +6,7 @@ New module created on 2013-03-16
 '''
 
 from pyparsing import nestedExpr, ParseException
-import macleod.Filemgt as filemgt
+import Filemgt as filemgt
 import os
 import logging
 import math

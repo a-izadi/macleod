@@ -3,8 +3,8 @@ from multiprocessing import Queue
 import os, sys, logging
 import time, re, signal, subprocess
 
-import macleod.Filemgt as filemgt
-import macleod.Ontology as Ontology
+import Filemgt as filemgt
+import Ontology as Ontology
 
 class ReasonerProcess(multiprocessing.Process):
 

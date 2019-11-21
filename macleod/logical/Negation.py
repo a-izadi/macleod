@@ -3,10 +3,10 @@
 @version 0.0.2
 """
 
-import macleod.logical.Logical as Logical
-import macleod.logical.Connective as Connective
-import macleod.logical.Symbol as Symbol
-import macleod.logical.Quantifier as Quantifier
+import logical.Logical as Logical
+import logical.Connective as Connective
+import logical.Symbol as Symbol
+import logical.Quantifier as Quantifier
 
 import copy
 

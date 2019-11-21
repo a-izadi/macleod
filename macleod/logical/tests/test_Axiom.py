@@ -2,9 +2,9 @@
 
 import unittest
 
-import macleod.logical.Axiom as Axiom
-import macleod.logical.Quantifier as Quantifier
-import macleod.logical.Symbol as Symbol
+import logical.Axiom as Axiom
+import logical.Quantifier as Quantifier
+import logical.Symbol as Symbol
 
 class AxiomTest(unittest.TestCase):
 

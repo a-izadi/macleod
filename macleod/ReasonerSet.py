@@ -1,5 +1,5 @@
-import macleod.Filemgt as filemgt
-import macleod.Commands as commands
+import Filemgt as filemgt
+import Commands as commands
 from macleod.Reasoner import Reasoner
 
 import logging

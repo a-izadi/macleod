@@ -5,7 +5,7 @@
 This is going to get worse before it gets better...
 """
 
-import macleod.Clif as clif
+import Clif as clif
 import pprint
 
 def is_all_universal(quantifiers):

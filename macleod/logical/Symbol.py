@@ -3,7 +3,7 @@
 @version 0.0.2
 """
 
-import macleod.logical.Logical as Logical
+import logical.Logical as Logical
 
 import copy
 import logging
@@ -84,9 +84,9 @@ class Predicate(Logical.Logical):
         '''
 
         # TODO This a dirty hack because cyclic imports are painful
-        import macleod.logical.Quantifier as Quantifier
-        import macleod.logical.Negation as Negation
-        import macleod.logical.Connective as Connective
+        import logical.Quantifier as Quantifier
+        import logical.Negation as Negation
+        import logical.Connective as Connective
 
         global gen
 

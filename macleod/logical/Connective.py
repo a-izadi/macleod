@@ -8,8 +8,8 @@ import copy
 import functools
 import logging
 
-import macleod.logical.Logical as Logical
-import macleod.logical.Quantifier as Quantifier
+import logical.Logical as Logical
+import logical.Quantifier as Quantifier
 
 LOGGER = logging.getLogger(__name__)
 

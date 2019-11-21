@@ -7,13 +7,13 @@ import re
 
 from pathlib import Path
 
-import macleod.Ontology as Ontology
-import macleod.logical.Logical as Logical
-import macleod.logical.Connective as Connective
-import macleod.logical.Logical as Logical
-import macleod.logical.Negation as Negation
-import macleod.logical.Quantifier as Quantifier
-import macleod.logical.Symbol as Symbol
+import Ontology as Ontology
+import logical.Logical as Logical
+import logical.Connective as Connective
+import logical.Logical as Logical
+import logical.Negation as Negation
+import logical.Quantifier as Quantifier
+import logical.Symbol as Symbol
 
 LOGGER = logging.getLogger(__name__)
 

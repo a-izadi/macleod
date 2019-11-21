@@ -2,7 +2,7 @@
 
 import unittest
 
-import macleod.logical.Symbol as Symbol
+import logical.Symbol as Symbol
 
 class SymbolTest(unittest.TestCase):
 

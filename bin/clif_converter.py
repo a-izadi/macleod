@@ -11,8 +11,8 @@ import os, sys, argparse, logging
 sys.path.append(os.path.dirname(os.path.abspath(__file__))+"/../")
 
 
-import macleod.Filemgt as Filemgt
-import macleod.parsing.Parser as Parser
+import Filemgt as Filemgt
+import parsing.Parser as Parser
 #from macleod.Filemgt import Filemgt
 
 # defaults for the ontology directory and basepath

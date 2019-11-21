@@ -3,8 +3,8 @@ Created on 2010-11-26
 
 @author: Torsten Hahmann
 '''
-import macleod.Filemgt as filemgt
-import macleod.Ladr as ladr
+import Filemgt as filemgt
+import Ladr as ladr
 import os, logging
 
 from bin import clif_converter

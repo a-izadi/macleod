@@ -1,8 +1,8 @@
 
 import unittest
 
-import macleod.logical.Symbol as Symbol
-import macleod.logical.Quantifier as Quantifier
+import logical.Symbol as Symbol
+import logical.Quantifier as Quantifier
 
 class LogicalTests(unittest.TestCase):
     '''

@@ -2,8 +2,8 @@
 
 import unittest
 
-import macleod.logical.Connective as Connective
-import macleod.logical.Symbol as Symbol
+import logical.Connective as Connective
+import logical.Symbol as Symbol
 
 class ConnectiveTest(unittest.TestCase):
 

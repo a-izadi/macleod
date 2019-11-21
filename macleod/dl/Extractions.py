@@ -18,7 +18,7 @@ import functools
 import logging
 import pprint
 
-import macleod.dl.Translation as Translation
+import dl.Translation as Translation
 
 EQ = "="
 

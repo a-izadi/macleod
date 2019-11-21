@@ -6,9 +6,9 @@ import os
 
 import logging
 
-import macleod.logical.Axiom as Axiom
-import macleod.Filemgt as Filemgt
-import macleod.Process as Process
+import logical.Axiom as Axiom
+import Filemgt as Filemgt
+import Process as Process
 from macleod.ReasonerSet import *
 
 CONSISTENT = 1
@@ -98,7 +98,7 @@ class Ontology(object):
         """
         self.resolve = resolve
         # Cyclic imports are kind of painful in Python
-        import macleod.parsing.Parser as Parser
+        import parsing.Parser as Parser
 
         for path in self.imports:
 

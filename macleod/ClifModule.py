@@ -5,11 +5,11 @@ Refactored on 2013-03-16
 @author: Torsten Hahmann
 '''
 
-import macleod.Filemgt as filemgt
-import macleod.Process as process
-import macleod.Clif as clif
-import macleod.Commands as commands
-import macleod.Ladr as ladr
+import Filemgt as filemgt
+import Process as process
+import Clif as clif
+import Commands as commands
+import Ladr as ladr
 
 import os, logging
 

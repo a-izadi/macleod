@@ -6,7 +6,7 @@ Created on 2013-03-31
 
 import logging, os
 
-import macleod.Filemgt as filemgt
+import Filemgt as filemgt
 
 from macleod.ClifModule import ClifModule
 

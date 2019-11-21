@@ -1,6 +1,6 @@
-import macleod.Filemgt as Filemgt
-import macleod.Commands as commands
-import macleod.Ontology as Ontology
+import Filemgt as Filemgt
+import Commands as commands
+import Ontology as Ontology
 import logging
 
 class Reasoner (object):

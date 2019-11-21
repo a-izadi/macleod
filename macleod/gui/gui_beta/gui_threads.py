@@ -1,7 +1,7 @@
 from PyQt5.QtCore import QThread
 from macleod.parsing import Parser
 import os
-import macleod.Filemgt as filemgt
+import Filemgt as filemgt
 import tempfile
 import sys
 import traceback
