@@ -1,0 +1,6 @@
+ply==3.11
+pyparsing==2.3.1
+configparser==3.7.3
+texttable==1.6.1
+owlready==0.3.1
+PyQt5==5.10
